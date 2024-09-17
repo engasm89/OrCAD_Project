@@ -1,0 +1,6 @@
+* source AMP
+X_U1         N14712 N14700 +12V 0 0 LM741/NS
+R_R1         N14700 N14688 10k
+V_V1         N14712 N14719   
+** Floating/unmodeled pin fixups **
+R__UC0001   N14688  0   {1/GMIN}
